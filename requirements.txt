@@ -1,0 +1,8 @@
+streamlit
+langchain
+openai
+langchain-openai
+pyowm
+langchain-community
+python-dotenv
+amadeus
