@@ -6,3 +6,4 @@ pyowm>=3.3.0
 langchain-community
 python-dotenv
 amadeus
+setuptools
