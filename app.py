@@ -192,9 +192,9 @@ route_user_input(user_input)
 #     except Exception as e:
 #         st.error(f"Error : {e}")
     
-with st.expander("History"):
-    for msg in st.session_state.memory.chat_memory.messages:
-        st.markdown(f"{msg.type.capitalize()} : {msg.content}")
+# with st.expander("History"):
+#     for msg in st.session_state.memory.chat_memory.messages:
+#         st.markdown(f"{msg.type.capitalize()} : {msg.content}")
 
 if st.button("clear memory"):
     st.session_state.memory.clear()
