@@ -1,4 +1,5 @@
 import os
+import pyowm
 from dotenv import load_dotenv
 
 from langchain_community.agent_toolkits.amadeus.toolkit import AmadeusToolkit
