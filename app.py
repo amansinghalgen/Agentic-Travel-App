@@ -156,7 +156,7 @@ def route_user_input(user_input:str):
         )
         final_output = final_response.get("output", "")
         st.session_state.memory.chat_memory.add_ai_message(final_output)
-        st.write("AI output : ", final_output)
+        st.write(final_output)
     elif intent == "ask_about_options":
         # print("Answering based on memory...")
         response = conversation_chain.predict(input=user_input)
