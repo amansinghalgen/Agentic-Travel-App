@@ -2,7 +2,7 @@ streamlit
 langchain
 openai
 langchain-openai
-pyowm
+pyowm>=3.3.0
 langchain-community
 python-dotenv
 amadeus
